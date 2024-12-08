@@ -38,4 +38,4 @@ Repository Contents:
 README File: Detailed overview of the project.
 Presentation: A PDF detailing project features and implementation.
 Video Demo: A 2-minute video demonstrating features and explaining the codebase.
-Mockups/Design: Figma designs of the Android app interface.
+link-to-website : Figma designs of the Android app interface.
