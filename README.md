@@ -5,7 +5,7 @@ Name and School:
 Date:  
 - 27/08/2008  
 Category:
-- Healthcare  
+- Healthcare  (ideathon)
 Project Name:
 - MaternaCare: Smart Pregnancy Belt  
   Description:
