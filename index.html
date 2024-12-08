@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<!-- saved from url=(0091)https://cdpn.io/cpe/boomboom/index.html?key=index.html-609ff75a-a7e0-8637-911b-6c423b86bfa7 -->
+<html lang="en" class=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  
+  <title>CodePen Demo</title>
+
+  <meta name="robots" content="noindex">
+
+  <link rel="shortcut icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico">
+  <link rel="mask-icon" href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-b4b4269c16397ad2f0f7a01bcdf513a1994f4c94b8af2f191c09eb0d601762b1.svg" color="#111">
+  <link rel="canonical" href="https://codepen.io/Sunanda-Manne/pen/gbYYrqL">
+
+  
+  
+
+  <style id="INLINE_PEN_STYLESHEET_ID">
+    
+  </style>
+
+  
+<script src="./stopExecutionOnTimeout-2c7831bb44f98c1391d6a4ffda0e1fd302503391ca806e7fcc7b9b87197aec26.js.download"></script>
+<script src="./iframeConsoleRunner-6d8bf8b4b479137260842506acbb12717dace0823c023e08b96360e60b0840d9.js.download"></script>
+<script src="./iframeRefreshCSS-44fe83e49b63affec96918c9af88c0d80b209a862cf87ac46bc933074b8c557d.js.download"></script>
+<script src="./iframeRuntimeErrors-4f205f2c14e769b448bcf477de2938c681660d5038bc464e3700256713ebe261.js.download"></script>
+</head>
+
+<body class="bg-gray-50">
+  
+
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartCare Pregnancy Belt</title>
+    <link href="./tailwind.min.css" rel="stylesheet">
+    <link href="./bootstrap-icons.css" rel="stylesheet">
+    <link href="./css2" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+        .gradient-bg {
+            background: linear-gradient(135deg, #7c7d7d 0%, #936262 100%);
+        }
+        .feature-card {
+            transition: all 0.3s ease;
+        }
+        .feature-card:hover {
+            transform: translateY(-5px);
+        }
+        .stats-value {
+            animation: countUp 2s ease-out forwards;
+        }
+        @keyframes countUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .monitoring-panel {
+            display: none;
+        }
+        .monitoring-panel.active {
+            display: block;
+        }
+    </style>
+
+
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg fixed w-full z-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex justify-between h-16">
+                <div class="flex-shrink-0 flex items-center">
+                    <img src="./DALL·E 2024-11-23 16.32.10 - A minimalistic and elegant logo design featuring a large, soft pink letter &#39;S&#39;. Inside the lower curve of the &#39;S&#39;, a stylized line art of a fetus in a.png" alt="SmartCare Logo" class="h-16 w-16 mr-2">
+                         
+
+                </div>
+                <div class="flex items-center space-x-2">
+                    <h1 style="color:#E8ADAA; font-size: 48px; font-weight: bold;">SOFAR</h1> <!-- Bigger and rose-colored -->
+                </div>
+                
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="https://cdpn.io/cpe/boomboom/index.html?key=index.html-609ff75a-a7e0-8637-911b-6c423b86bfa7#features" class="text-gray-700 hover:text-gray-900">Features</a>
+                    <a href="https://cdpn.io/cpe/boomboom/index.html?key=index.html-609ff75a-a7e0-8637-911b-6c423b86bfa7#technology" class="text-gray-700 hover:text-gray-900">Technology</a>
+                    <a href="https://cdpn.io/cpe/boomboom/index.html?key=index.html-609ff75a-a7e0-8637-911b-6c423b86bfa7#monitoring" class="text-gray-700 hover:text-gray-900">Monitoring</a>
+                    <button onclick="showMonitoring()" class="gradient-bg text-white px-6 py-2 rounded-full hover:opacity-90">
+                        Get Started
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="pt-24 pb-12 px-4">
+        <div class="max-w-7xl mx-auto flex flex-wrap items-center">
+            <div class="w-full lg:w-1/2 mb-8 lg:mb-0">
+                <h1 class="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
+                    Smart optimization for fetal and maternal 
+assistance and reliability
+
+                </h1>
+                <p class="text-lg text-gray-600 mb-8">
+                    Revolutionary wearable technology providing real-time monitoring for both mother and fetus. Experience peace of mind with continuous health tracking and early risk detection.
+                </p>
+                <button onclick="showMonitoring()" class="gradient-bg text-white px-8 py-3 rounded-full text-lg hover:opacity-90">
+                    Start Monitoring
+                </button>
+            </div>
+            <div class="w-full lg:w-1/2">
+                <img src="./fotor-ai-20241122221334.jpg" alt="Smart Pregnancy Belt" class="rounded-lg shadow-xl w-full">
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-16 bg-gray-100">
+        <div class="max-w-7xl mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Key Features</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="feature-card bg-white p-6 rounded-lg shadow-md">
+                    <img src="./image-removebg-preview (7).png" alt="Real-time Monitoring" class="w-16 h-16 mb-4">
+                    <h3 class="text-xl font-semibold mb-3">Real-time Monitoring</h3>
+                    <p class="text-gray-600">Continuous tracking of maternal and fetal vital signs with instant alerts for any abnormalities.</p>
+                    <p>1. heart rate of both Mother and Child</p>
+                    <p>2. Blood presure of Mother</p>
+                    <p>3. Body and environment
+                        temperature</p>
+                    <p>4. StressLevels
+                        </p>
+                    <p>5. Contraction 
+                        Monitoring
+                        
+                        </p>
+                </div>
+                <div class="feature-card bg-white p-6 rounded-lg shadow-md">
+                    <img src="./image-removebg-preview (14).png" alt="Advanced Sensors" class="w-16 h-16 mb-4">
+                    <h3 class="text-xl font-semibold mb-3">Advanced Sensors</h3>
+                    <p class="text-gray-600">State-of-the-art sensor technology for accurate health metrics and movement detection.</p>
+                </div>
+                <div class="feature-card bg-white p-6 rounded-lg shadow-md">
+                    <img src="./image-removebg-preview (18).png" alt="Mobile Integration" class="w-16 h-16 mb-4">
+                    <h3 class="text-xl font-semibold mb-3">Mobile Integration</h3>
+                    <p class="text-gray-600">Seamless connection with mobile app for easy monitoring and data sharing.</p>
+                </div>
+                <div class="feature-card bg-white p-6 rounded-lg shadow-md">
+                    <img src="./image-removebg-preview (18).png" alt="AI-ML Integration" class="w-16 h-16 mb-4">
+                    <h3 class="text-xl font-semibold mb-3">AI-ML Integration</h3>
+                    <p class="text-gray-600">The belt’s AI/ML capabilities enable it to not only alert the user but also send health data and alerts to doctors in real-time. This feature facilitates remote monitoring by healthcare providers, allowing them to intervene early if necessary..</p>
+                </div>
+                <div class="feature-card bg-white p-6 rounded-lg shadow-md">
+                    <img src="./image-removebg-preview (18).png" alt="Predictive Health MonitoringM" class="w-16 h-16 mb-4">
+                    <h3 class="text-xl font-semibold mb-3">Predictive Health Monitoring</h3>
+                    <p class="text-gray-600">Using historical data and machine learning models, the belt can predict potential risks or health complications before they occur</p>
+                    <p>1.Preeclampsia Detection </p>
+                    <p>2.Fetal Distress Prediction </p>
+                    <p>3.Gestational Diabetes Detection </p>
+                </div>
+                <div class="feature-card bg-white p-6 rounded-lg shadow-md">
+                    <img src="./image-removebg-preview (14).png" alt="Personalized Alerts and Notifications" class="w-16 h-16 mb-4">
+                    <h3 class="text-xl font-semibold mb-3">Personalized Alerts and Notifications</h3>
+                    <p class="text-gray-600">Personalized alerts and notifications in the SmartCare Pregnancy Belt are a crucial feature, ensuring that each user receives tailored, actionable information based on their unique health data. These alerts can be designed to be proactive, ensuring that the user is always informed about their health status.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Monitoring Panel -->
+    <section id="monitoring-panel" class="monitoring-panel fixed inset-0 bg-white z-50 overflow-auto">
+        <div class="max-w-7xl mx-auto px-4 py-8">
+            <div class="flex justify-between items-center mb-8">
+                <h2 class="text-2xl font-bold">Health Monitoring Dashboard</h2>
+                <button onclick="hideMonitoring()" class="text-gray-600 hover:text-gray-900">
+                    <i class="bi bi-x-lg text-2xl"></i>
+                </button>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Maternal Heart Rate -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-lg font-semibold mb-4">Maternal Heart Rate</h3>
+                    <div class="text-3xl font-bold text-center stats-value" id="maternal-heart-rate">71</div>
+                    <p class="text-center text-gray-600 mt-2">BPM</p>
+                </div>
+
+                <!-- Fetal Heart Rate -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-lg font-semibold mb-4">Fetal Heart Rate</h3>
+                    <div class="text-3xl font-bold text-center stats-value" id="fetal-heart-rate">130</div>
+                    <p class="text-center text-gray-600 mt-2">BPM</p>
+                </div>
+
+                <!-- Blood Pressure -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-lg font-semibold mb-4">Blood Pressure</h3>
+                    <div class="text-3xl font-bold text-center stats-value" id="blood-pressure">116/76</div>
+                    <p class="text-center text-gray-600 mt-2">mmHg</p>
+                </div>
+
+                <!-- Temperature -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-lg font-semibold mb-4">Body Temperature</h3>
+                    <div class="text-3xl font-bold text-center stats-value" id="temperature">37.3</div>
+                    <p class="text-center text-gray-600 mt-2">°C</p>
+                </div>
+            </div>
+
+            <!-- Additional Metrics -->
+            <div class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-6">
+                <!-- Stress Level -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-lg font-semibold mb-4">Stress Level</h3>
+                    <div class="w-full bg-gray-200 rounded-full h-4">
+                        <div class="gradient-bg h-4 rounded-full" style="width: 35%"></div>
+                    </div>
+                    <p class="text-center text-gray-600 mt-2">Low</p>
+                </div>
+
+                <!-- Contraction Monitor -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-lg font-semibold mb-4">Contraction Monitor</h3>
+                    <canvas id="contractionChart" class="w-full h-32"></canvas>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        function showMonitoring() {
+            document.getElementById('monitoring-panel').classList.add('active');
+            updateStats();
+        }
+
+        function hideMonitoring() {
+            document.getElementById('monitoring-panel').classList.remove('active');
+        }
+
+        function updateStats() {
+            // Simulate real-time updates
+            setInterval(() => {
+                document.getElementById('maternal-heart-rate').textContent = 
+                    Math.floor(Math.random() * (85 - 65) + 65);
+                
+                document.getElementById('fetal-heart-rate').textContent = 
+                    Math.floor(Math.random() * (160 - 120) + 120);
+                
+                document.getElementById('blood-pressure').textContent = 
+                    `${Math.floor(Math.random() * (130 - 110) + 110)}/${Math.floor(Math.random() * (85 - 75) + 75)}`;
+                
+                document.getElementById('temperature').textContent = 
+                    (Math.random() * (37.4 - 36.8) + 36.8).toFixed(1);
+            }, 2000);
+        }
+
+        // Basic contraction chart
+        const ctx = document.getElementById('contractionChart');
+        if(ctx) {
+            const chart = ctx.getContext('2d');
+            let x = 0;
+
+            setInterval(() => {
+                chart.clearRect(0, 0, ctx.width, ctx.height);
+                chart.beginPath();
+                chart.moveTo(0, ctx.height/2);
+                
+                for(let i = 0; i <= ctx.width; i++) {
+                    const y = Math.sin(i/10 + x) * 20 + ctx.height/2;
+                    chart.lineTo(i, y);
+                }
+                
+                chart.strokeStyle = '#936262';
+                chart.stroke();
+                x += 0.1;
+            }, 50);
+        }
+    </script>
+
+
+  
+  <script src="./pen.js.download" crossorigin=""></script>
+
+
+</body></html>
